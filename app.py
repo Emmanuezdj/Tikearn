@@ -10,8 +10,9 @@ def home():
 def login():
     username=request.form["username"]
     password=request.form["password"]
-    print(username,password)
-    return "Processing"
+    print("Username:",username,"Password:",password)
+    return "<h1>Processing</h1>"
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
